@@ -484,6 +484,7 @@ button {
 
 .icon-md {
     font-size: 2rem!important;
+    margin-bottom: 10px;
 }
 
 .icon-lg {
@@ -734,7 +735,7 @@ h1 {
 }
 
 h4 {
-    color: #333333!important;
+   font-style: italic;
 }
 
 .icons {
@@ -748,6 +749,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
