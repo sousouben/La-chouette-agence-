@@ -15,7 +15,7 @@ h6
 }
 
 a,
-button {
+button, .color {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
@@ -655,7 +655,8 @@ h6,
 p,
 label,
 .btn,
-a {
+a,
+.color{
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -685,6 +686,15 @@ a {
 
 p {
     font-size: 14px;
+}
+
+.color{
+    font-size: 12px;
+}
+
+footer li
+{
+   padding: 4px;
 }
 
 .tight-width-whitespace {
@@ -913,6 +923,7 @@ h4 {
     h5,
     h6,
     p,
+    a,
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
@@ -974,7 +985,7 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
+        max-height: 33px;
         width: auto;
     }
     .nav-invert .navbar-header {
