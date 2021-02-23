@@ -103,6 +103,7 @@ a:hover {
 
 .d-bloc {
     color: rgba(255, 255, 255, .7);
+    font-size: 12px;
 }
 
 .d-bloc button:hover {
@@ -337,6 +338,9 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    }
+.hover-color :hover{
+    color:#F3976C!important;
 }
 
 .navbar-toggle {
@@ -680,7 +684,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -708,7 +712,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4em;
 }
 
