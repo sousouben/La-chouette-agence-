@@ -659,15 +659,15 @@ a,
 .color{
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
-}
+    color: #3c3434 !important;
+   }
 
 .container {
     max-width: 1000px;
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 5vw;
 }
 
 .hero-bloc-text-sub {
@@ -694,7 +694,7 @@ p {
 
 footer li
 {
-   padding: 4px;
+   padding: 9px;
 }
 
 .tight-width-whitespace {
@@ -743,7 +743,7 @@ h1 {
     color: #333333!important;
 }
 
-h4 {
+.h4 {
    font-style: italic;
 }
 
@@ -793,11 +793,11 @@ h4 {
 }
 
 .tc-white {
-    color: #f4f4f4 !important;
+    color:#f0eded !important;
 }
 
 .tc-white1{
-    color: #312b2b !important; 
+    color: #574d4d !important;
 } 
 
 .btn-atomic-tangerine {
@@ -1063,3 +1063,22 @@ h4 {
         text-align: center;
     }
 }
+
+.img-chouette {
+    height:33px;
+}
+
+.tc-black{
+    color: #262323 !important;
+}
+
+.col-sm-12 {
+    margin-bottom: 33px;
+}
+
+.titre_footer {
+    font-size: 13px;
+}
+
+
+
