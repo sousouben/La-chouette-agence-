@@ -806,7 +806,8 @@ h1 {
     color:#393737 !important;
 }
 
-    background: #c27956!important;
+.btn-atomic-tangerine:hover{
+background: #c27956!important;
     color: #FFFFFF!important;
 }
 
