@@ -101,10 +101,10 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
+/*.d-bloc {
     color: rgba(255, 255, 255, .7);
     font-size: 12px;
-}
+}*/
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -695,6 +695,7 @@ p {
 footer li
 {
    padding: 9px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -793,11 +794,11 @@ h1 {
 }
 
 .tc-white {
-    color:#f0eded !important;
+    color:#f0eded !important;   
 }
 
 .tc-white1{
-    color: #574d4d !important;
+    color: #0e0e0e !important;
 } 
 
 .btn-atomic-tangerine {
@@ -805,8 +806,8 @@ h1 {
     color:#393737 !important;
 }
 
-.btn-atomic-tangerine:hover {
-    background: #c27956!important;
+.btn-atomic-tangerine:hover{
+background: #c27956!important;
     color: #FFFFFF!important;
 }
 
@@ -870,13 +871,13 @@ h1 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -894,10 +895,7 @@ h1 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -906,10 +904,7 @@ h1 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
-}
+        }
 
 @media (max-width: 767px) {
     .page-container {
@@ -1078,4 +1073,8 @@ h1 {
 
 .titre_footer {
     font-size: 13px;
+}
+
+.image-resize-mode {
+    width: 100px;
 }
