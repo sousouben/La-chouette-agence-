@@ -14,10 +14,10 @@ h6
     display: none;
 }
 
-a,
-button, .color {
+a:focus,
+button:focus, .color:focus {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: 4px dashed black;!important;
 }
 
 a:hover {
