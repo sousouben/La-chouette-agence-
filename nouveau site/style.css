@@ -17,7 +17,7 @@ h6
 a:focus,
 button:focus, .color:focus {
     transition: all .3s ease-in-out;
-    outline: 4px dashed black;!important;
+    outline: 4px dashed black !important;
 }
 
 a:hover {
