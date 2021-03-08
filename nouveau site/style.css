@@ -17,7 +17,7 @@ h6
 a:focus,
 button:focus, .color:focus {
     transition: all .3s ease-in-out;
-    outline: 4px dashed black !important;
+    outline: 2px dashed black !important;
 }
 
 a:hover {
@@ -102,8 +102,8 @@ a:hover {
 }
 
 /*.d-bloc {
-    color: rgba(255, 255, 255, .7);
-    font-size: 12px;
+color: rgba(255, 255, 255, .7);
+font-size: 12px;
 }*/
 
 .d-bloc button:hover {
@@ -338,7 +338,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
-    }
+}
 .hover-color :hover{
     color:#F3976C!important;
 }
@@ -532,7 +532,7 @@ button {
     margin-top: 6px;
 }
 
-.showScrollTop {
+.showScrollTop{
     font-size: 14px;
     opacity: 1;
 }
@@ -660,7 +660,7 @@ a,
     font-family: "helvetica";
     font-weight: 400;
     color: #3c3434 !important;
-   }
+}
 
 .container {
     max-width: 1000px;
@@ -694,7 +694,7 @@ p {
 
 footer li
 {
-   padding: 9px;
+    padding: 9px;
     font-size: 12px;
 }
 
@@ -750,7 +750,7 @@ h1 {
 }
 
 .h4 {
-   font-style: italic;
+    font-style: italic;
 }
 
 .icons {
@@ -812,7 +812,7 @@ h1 {
 }
 
 .btn-atomic-tangerine:hover{
-background: #c27956!important;
+    background: #c27956!important;
     color: #FFFFFF!important;
 }
 
@@ -900,7 +900,7 @@ background: #c27956!important;
         overflow-x: hidden;
         position: relative;
     }
-    
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -909,8 +909,8 @@ background: #c27956!important;
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        }
-
+    }
+}
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
